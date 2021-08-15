@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "wantfrom-e-commerce"
+    }
+  },
+  "defaultProject": "wantfrom-e-commerce",
+  "cli": {
+    "analytics": false
+  }
 }
