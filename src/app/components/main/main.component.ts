@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-  serverElements = [{name: 'Jarra', price: 50, marca: 'Teleg'}, {name: 'Jarra', price: 50, marca: 'Teleg'}, {name: 'Jarra', price: 50, marca: 'Teleg'}]
+  serverElements = [{name: 'Botines', price: 50, marca: 'Nike'}, {name: 'Remera PSG', price: 50, marca: 'Jordan'}, {name: 'Pelota Futbol', price: 50, marca: 'Adidas'}]
   constructor() { }
 
   ngOnInit(): void {
