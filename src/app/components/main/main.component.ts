@@ -8,11 +8,11 @@ import { FormGroup, FormControl  } from '@angular/forms';
 })
 export class MainComponent implements OnInit {
   serverElements = [
-    { nombre: 'Botines', precio: 9000, marca: 'Nike', id: 1, categoria: '12' },
-    { nombre: 'Remera PSG', precio: 50000, marca: 'Jordan', id: 1, categoria: '12' },
-    { nombre: 'Pelota Futbol', precio: 5000, marca: 'Adidas', id: 1, categoria: '12' },
-    { nombre: 'Botines', precio: 9000, marca: 'Nike', id: 1, categoria: '12' },
-    { nombre: 'Remera PSG', precio: 50000, marca: 'Jordan', id: 1, categoria: '12' }
+    { nombre: 'Botines', precio: 9000, marca: 'Nike', id: 1, categoria: '3' },
+    { nombre: 'Remera PSG', precio: 50000, marca: 'Jordan', id: 1, categoria: '5' },
+    { nombre: 'Pelota Futbol', precio: 5000, marca: 'Adidas', id: 1, categoria: '6' },
+    { nombre: 'Short de futbol', precio: 2500, marca: 'Nike', id: 1, categoria: '12' },
+    { nombre: 'Medias de futbol', precio: 1000, marca: 'Nike', id: 1, categoria: '8' }
   ];
   listaMostrar: Array<any> = []
 
