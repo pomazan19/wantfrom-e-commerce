@@ -31,16 +31,17 @@
 .main {
     margin-left: 160px;
     /* Same as the width of the sidenav */
-    font-size: 28px;
+    font-size: 40px;
     /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 500px) {
     .sidenav {
-        padding-top: 15px;
+        padding-top: 40px;
     }
     .sidenav a {
-        font-size: 18px;
+        font-size: 30px;
+        color: #8182FE;
     }
 }

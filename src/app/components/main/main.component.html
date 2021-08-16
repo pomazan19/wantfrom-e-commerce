@@ -5,33 +5,34 @@
     <div class="col-2"><button type="button" class="btn btn-primary">Nuevo Producto</button></div>
 
 </div>
+<form [formGroup]="filterForm">
+    <div class="row">
+        <div class="col">
+            <input disabled formControlName="id" type="text" class="form-control" placeholder="ID">
+        </div>
+        <div class="col">
+            <input formControlName="nombre" type="text" class="form-control" placeholder="NOMBRE">
+        </div>
+        <div class="col">
+            <input formControlName="precio" type="text" class="form-control" placeholder="PRECIO HASTA">
+        </div>
+        <div class="col">
+            <input formControlName="categoria" type="text" class="form-control" placeholder="CATEGORIA">
+        </div>
+        <div class="col">
+            <input formControlName="marca" type="text" class="form-control" placeholder="MARCA">
+        </div>
+        <div class="col">
+            <i (click)="reset()" class="fas fa-retweet"></i>
+        </div>
+    </div>
+</form>
 
-<div class="row">
-    <div class="col">
-        <input type="text" class="form-control" placeholder="ID">
-    </div>
-    <div class="col">
-        <input type="text" class="form-control" placeholder="NOMBRE">
-    </div>
-    <div class="col">
-        <input type="text" class="form-control" placeholder="PRECIO">
-    </div>
-    <div class="col">
-        <input type="text" class="form-control" placeholder="CATEGORIA">
-    </div>
-    <div class="col">
-        <input type="text" class="form-control" placeholder="MARCA">
-    </div>
-    <div class="col">
-        <i class="fas fa-retweet"></i>
-    </div>
-</div>
 
 
-
-<div class="card" *ngFor="let serverElement of serverElements">
+<div class="card" *ngFor="let serverElement of listaMostrar">
     <div class="card-body">
-        <h5 class="card-title">{{serverElement.name}}</h5>
-        <p class="card-text">{{serverElement.name}}</p>
+        <h5 class="card-title">{{serverElement.nombre}}</h5>
+        <p class="card-text">{{serverElement.marca}} ${{serverElement.precio}} CAT: {{serverElement.categoria}}</p>
     </div>
 </div>
