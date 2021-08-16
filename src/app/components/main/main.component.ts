@@ -12,8 +12,7 @@ export class MainComponent implements OnInit {
     { nombre: 'Remera PSG', precio: 50000, marca: 'Jordan', id: 1, categoria: '12' },
     { nombre: 'Pelota Futbol', precio: 5000, marca: 'Adidas', id: 1, categoria: '12' },
     { nombre: 'Botines', precio: 9000, marca: 'Nike', id: 1, categoria: '12' },
-    { nombre: 'Remera PSG', precio: 50000, marca: 'Jordan', id: 1, categoria: '12' },
-    { nombre: 'Pelota Futbol', precio: 5000, marca: 'Adidas', id: 1, categoria: '12' }
+    { nombre: 'Remera PSG', precio: 50000, marca: 'Jordan', id: 1, categoria: '12' }
   ];
   listaMostrar: Array<any> = []
 
